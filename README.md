@@ -41,7 +41,7 @@ rock-paper-scissors/
 ```
 
 ## Demo
-You can play the game live [here](#) 
+You can play the game live [here](https://shashank2043.github.io/rockpaperscissors/) 
 
 ## License
 This project is open-source and available under the [MIT License](LICENSE).
