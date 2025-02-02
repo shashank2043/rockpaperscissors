@@ -1,0 +1,97 @@
+/* General body styling */
+body {
+  background-color: #f4f4f9; /* Soft background color */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden; /* Prevent scrolling */
+}
+
+/* Main game container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  max-width: 600px;
+  height: 90vh;
+  border: 2px solid #e0e0e0; /* Subtle border */
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Title styling */
+h1 {
+  font-size: 2.5rem; /* Balanced title size */
+  text-align: center;
+  color: #333333; /* Dark gray for better readability */
+  margin-bottom: 20px;
+}
+
+/* Buttons container */
+.buttons {
+  margin: 20px 0;
+  display: flex;
+  gap: 15px; /* Space between buttons */
+}
+
+/* Rock, Paper, Scissors buttons */
+.buttons button {
+  margin: 10px;
+  padding: 20px;
+  font-size: 3rem; /* Slightly smaller icons */
+  min-width: 100px;
+  border: none;
+  border-radius: 250px; /* Rounded corners */
+  cursor: pointer;
+  background-color: #6200ea; /* Professional purple */
+  color: #ffffff; /* White text */
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Button hover effect */
+.buttons button:hover {
+  background-color: #3700b3; /* Darker purple on hover */
+  transform: scale(1.05);
+}
+
+/* Player and computer display */
+#playerDisplay,
+#computerDisplay {
+  font-size: 1.8rem; /* Balanced text size */
+  margin: 10px 0;
+  color: #555555; /* Medium gray for text */
+}
+
+/* Result display */
+#resultDisplay {
+  font-size: 2.5rem; /* Prominent result text */
+  margin: 20px 0;
+  font-weight: bold;
+  text-align: center;
+  color: #333333; /* Dark gray for emphasis */
+}
+
+/* Score display */
+.scoreDisplay {
+  font-size: 1.5rem; /* Balanced score text */
+  margin: 5px 0;
+  color: #555555; /* Medium gray for text */
+}
+
+/* Color styling for scores */
+.greenText,
+#playerScore {
+  color: #00c853; /* Professional green */
+}
+
+.redText,
+#computerScore {
+  color: #d50000; /* Professional red */
+}
